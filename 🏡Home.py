@@ -1,15 +1,15 @@
 import streamlit as st
 from streamlit_extras.switch_page_button import switch_page
 
-st.set_page_config(page_title='Streamlit x Flask x Stripe Example', page_icon='🌶️', initial_sidebar_state="auto", menu_items=None)
+st.set_page_config(page_title='ScrapStore', page_icon=':bar_chart:', initial_sidebar_state="auto", menu_items=None)
 
-st.title('Streamlit x Flask x Stripe 🌶️')
+st.title('ScrapStore :bar_chart:')
 
 
 st.markdown(    
     """
-### Monetize Your Streamlit App
-Simple example on how to create a streamlit app with gated user access to paying subscribers using stripe and flask.
+### Price scraping to optimize your marketing strategy
+ScrapStore is a formidable price scraping tool that will allow you to obtain information at your disposal...
     """)
 
 
