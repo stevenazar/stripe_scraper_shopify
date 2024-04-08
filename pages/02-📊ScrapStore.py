@@ -338,13 +338,13 @@ def main():
             data = store_data.downlaodjson(int(number_button))
             store_data.parsejson(data)
             store_data.display_graph(base_domain)
-    st.title(':male-detective: Keywords And SEO Anlayzer')
-    st.markdown('The main keywords present on the store and with which the SEO strategy is carried out')
-    with st.form(key='SEO analyszer'):
-        text_input = st.text_input('Enter the url', placeholder='https://www.store.com')
-        seo_button = st.form_submit_button(label='Search')
-        if seo_button:
-            seo_analysis(text_input)
+    #st.title(':male-detective: Keywords And SEO Anlayzer')
+    #st.markdown('The main keywords present on the store and with which the SEO strategy is carried out')
+    #with st.form(key='SEO analyszer'):
+        #text_input = st.text_input('Enter the url', placeholder='https://www.store.com')
+        #seo_button = st.form_submit_button(label='Search')
+        #if seo_button:
+            #seo_analysis(text_input)
 
 if logged_in:
     st.success('You are logged in!')

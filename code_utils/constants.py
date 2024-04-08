@@ -8,4 +8,4 @@ CHECKOUT_CANCEL_URL = DOMAIN
 USER_TABLE = 'users'
 # TODO: switch our db over to mysql
 DB_URL = f"postgresql://{config('DB_USER')}:{config('DB_PWD')}@{config('DB_HOST')}:{config('DB_PORT')}/{config('DB_NAME')}"
-#DB_URL = "postgresql://postgres:grapior0896@localhost:5432/postgres"
+#DB_URL = "postgresql://postgres:password@localhost:5432/postgres"
