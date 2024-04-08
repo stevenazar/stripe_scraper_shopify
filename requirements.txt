@@ -6,7 +6,6 @@ config==0.5.1
 configparser==6.0.0
 decorator==5.1.1
 extra-streamlit-components==0.1.60
-Faker==22.5.1
 favicon==0.7.0
 filelock==3.6.0
 Flask==3.0.1
@@ -29,14 +28,12 @@ mypy-extensions==0.4.3
 mysql-connector==2.2.9
 mysql-connector-python==8.0.28
 mysqlclient==2.2.0
-networkx==2.8.3
 nltk==3.7
 panda==0.3.1
 pandas==1.4.1
 pandas-datareader==0.10.0
 pathlib==1.0.1
 plotly==5.8.2
-pprintpp==0.4.0
 PyMySQL==1.0.2
 python-decouple==3.8
 python-dotenv==1.0.0
@@ -45,8 +42,6 @@ requests==2.27.1
 selenium==3.11.0
 SQLAlchemy==2.0.25
 sqlparse==0.4.2
-st-annotated-text==4.0.1
-stack-data==0.1.4
 streamlit==1.30.0
 streamlit-authenticator==0.3.1
 streamlit-camera-input-live==0.2.0
