@@ -7,5 +7,5 @@ CHECKOUT_SUCCESS_URL = f"{DOMAIN}/ScrapStore"
 CHECKOUT_CANCEL_URL = DOMAIN
 USER_TABLE = 'users'
 # TODO: switch our db over to mysql
-DB_URL = f"postgresql://{config('DB_USER')}:{config('DB_PWD')}@{config('DB_HOST')}:{config('DB_PORT')}/{config('DB_NAME')}"
-#DB_URL = "postgresql://postgres:password@localhost:5432/postgres"
+#DB_URL = f"postgresql://{config('DB_USER')}:{config('DB_PWD')}@{config('DB_HOST')}:{config('DB_PORT')}/{config('DB_NAME')}"
+DB_URL = f"postgresql+psycopg2://{config('DB_USER')}:{config('DB_PWD')}@{config('DB_HOST')}:{config('DB_PORT')}/{config('DB_NAME')}"
