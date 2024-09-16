@@ -14,7 +14,7 @@ import pandas as pd
 import extra_streamlit_components as stx
 from code_utils.validator import Validator
 from datetime import datetime, timedelta
-from sqlalchemy import create_engine, text
+from sqlalchemy import create_engine, text 
 from code_utils.constants import DB_URL
 import coloredlogs, logging
 import psycopg2 as pg

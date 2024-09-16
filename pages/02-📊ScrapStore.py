@@ -10,6 +10,7 @@ from bs4 import BeautifulSoup
 from df_global_search import DataFrameSearch
 import nltk
 from nltk.tokenize import word_tokenize
+
 nltk.download('stopwords')
 nltk.download('punkt')
 
@@ -237,6 +238,10 @@ def lottiefile(filepath: str):
     with open(filepath, "r") as file:
         return json.load(file)
 
+def display_sheets():
+    df = pd.read_csv("Shopify_stores_list.xlsx")
+    st.write(df)
+
 #function SEO analyzer
 def seo_analysis(url):
 # Save the good and the warnings in lists
@@ -320,7 +325,7 @@ def main():
     search_bar_columns = st.columns((2, 1, 0.5, 0.75, 1))
     with search_bar_columns[4]:
         highlight_match = st.toggle("Highlight Matching Cells", value=True)
-    display_dataframe_shopifyer()
+    #display_sheets()
 
 
 #st_lottie(lottie_logo, key="Logo")
